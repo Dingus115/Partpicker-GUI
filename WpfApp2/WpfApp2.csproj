@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RJCP.Diagnostics.Trace" Version="0.2.0" />
+    <PackageReference Include="RJCP.IO.Buffer" Version="0.2.0" />
+    <PackageReference Include="RJCP.IO.Device" Version="0.8.0" />
+    <PackageReference Include="RJCP.SerialPortStream" Version="3.0.0" />
+    <PackageReference Include="System.IO.Ports" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
